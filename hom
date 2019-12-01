@@ -1,0 +1,26 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+
+        int temperature = -4;
+        int age = 20 - 45;
+        if (age < 20 && age > 45) ;
+        if (temperature > +30 && temperature < -20) ;
+        System.out.println("Можно идти гулять");
+        generateRandomAge(0, 107);
+
+    }
+
+    public static void generateRandomAge(int num1, int num2) {
+        int a = 0; 
+        int b = 107;
+        int random_number1 = a + (int) (Math.random() * b);
+        System.out.println("случайное число: " + random_number1);
+
+    }
+
+
+}
